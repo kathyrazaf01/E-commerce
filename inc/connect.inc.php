@@ -1,8 +1,8 @@
 <?php 
-	$servername="mysql-kathy.alwaysdata.net";
-	$username="kathy";
-	$password="whothefuckareyou";
-	$database="kathy_grocery";
+	$servername="mysql-miandritiana.alwaysdata.net";
+	$username="350818";
+	$password="PotsiiLMimii456";
+	$database="miandritiana_grocery";
 
 	// Connexion à la base de données
 	$con = mysqli_connect($servername, $username, $password, $database);
