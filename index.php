@@ -39,13 +39,12 @@ $categoryProduct = [
 		<title>Nita's online grocery for your needs - Fresh products, drinks and snacks</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Découvrez notre épicerie en ligne, spécialisée dans la livraison rapide de produits frais et de qualité. Explorez nos catégories de produits frais, boissons, snacks, et bien plus encore.">
+		<meta name="description" content="Nita's online grocery">
     	<meta name="keywords" content="online grocery,Fresh products, drinks, snacks, quality products">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<script src="/js/homeslideshow.js"></script>
 	</head>
-	<body style="min-width: 980px;">
-		<div class="homepageheader" style="position: relative;">
+	<body style="min-width: 980px;">   
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
 					<?php 
@@ -87,7 +86,7 @@ $categoryProduct = [
 			<div class="home-welcome-text" style="background-image: url(image/background.jpg); height: 380px; ">
 				<div style="padding-top: 180px;">
 					<div style=" background-color: #dadbe6;">
-						<h1 style="margin: 0px;">Welcome To nita's online grocery</h1>
+						<h1 style="margin: 0px;">Nita's online grocery</h1>
 						<h2>Most Convenient Store in 7th ave. Caloocan</h2>
 					</div>
 				</div>
@@ -103,10 +102,11 @@ $categoryProduct = [
 						<li style="float: left; padding: 25px;">
 							<div class="home-prodlist-img"><a href="OurProducts/category.php?item=<?php echo $category['item']; ?>">
 							<!-- <div class="home-prodlist-img"><a href="OurProducts/Drinks.php"> -->
-								<img src="./image/product/<?php echo $category['image']; ?>" class="home-prodlist-imgi">
+							<img src="./image/product/<?php echo $category['image']; ?>" class="home-prodlist-imgi" alt="<?php echo $category['name']; ?>">
+								<h3><strong><?php echo $category['name']; ?></strong></h3>
 								</a>
 							</div>
-						<h3><strong><?php echo $category['name']; ?></strong></h3>
+
 						</li>
 					</ul>
 				<?php } ?>
