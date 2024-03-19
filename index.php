@@ -36,7 +36,7 @@ $categoryProduct = [
 			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 			})(window,document,'script','dataLayer','GTM-N89BJNV6');</script>
 		<!-- End Google Tag Manager -->
-		<title>Welcome to nita's online grocery</title>
+		<title>Nita's online grocery for your needs - Fresh products, drinks and snacks</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -93,7 +93,7 @@ $categoryProduct = [
 		</div>
 		<div class="home-prodlist">
 			<div>
-				<h3 style="text-align: center;">Products Category</h3>
+				<h2 style="text-align: center;"><strong>Products Category</strong></h2>
 			</div>
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
 				<?php foreach ($categoryProduct as $category) { ?>
