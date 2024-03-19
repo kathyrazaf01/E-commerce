@@ -27,7 +27,7 @@ $categoryProduct = [
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8JFCNSN5ZE"></script>
@@ -87,8 +87,8 @@ $categoryProduct = [
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
-				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/cart.png">
+				<a href="index.php" aria-label="Accéder à la page d'accueil">
+					<img style="height: 75px; width: 130px;" src="image/cart.png" alt="Logo du panier">
 				</a>
 			</div>
 			<div class="">
