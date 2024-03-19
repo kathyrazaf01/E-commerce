@@ -22,7 +22,7 @@ else {
 			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 			})(window,document,'script','dataLayer','GTM-N89BJNV6');</script>
 		<!-- End Google Tag Manager -->
-		<title>Welcome to nita's online grocery</title>
+		<title>Nita's online grocery for your needs - Fresh products, drinks and snacks</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -79,7 +79,7 @@ else {
 		</div>
 		<div class="home-prodlist">
 			<div>
-				<h3 style="text-align: center;">Products Category</h3>
+				<h2 style="text-align: center;"><strong>Products Category</strong></h2>
 			</div>
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
 				<ul style="float: left;">
@@ -88,6 +88,7 @@ else {
 							<img src="./image/product/noodles/n.jpg" class="home-prodlist-imgi">
 							</a>
 						</div>
+					<h3>Noodles/Canned</h3>	
 					</li>
 				</ul>
 				<ul style="float: left;">
@@ -97,26 +98,35 @@ else {
 							</a>
 						</div>
 					</li>
+					<h3>Snacks</h3>
+						
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
+					
 						<div class="home-prodlist-img"><a href="OurProducts/Sweets.php">
 							<img src="./image/product/sweet/s.jpg" class="home-prodlist-imgi"></a>
 						</div>
+					<h3>Sweets</h3>
+						
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
+					
 						<div class="home-prodlist-img"><a href="OurProducts/Hygene.php">
 							<img src="./image/product/hygiene/hy.jpg" class="home-prodlist-imgi"></a>
 						</div>
+					<h3>Hygienic Products</h3>	
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
+					
 						<div class="home-prodlist-img"><a href="OurProducts/Shampoo.php">
 							<img src="./image/product/shampoo/pall.jpg" class="home-prodlist-imgi"></a>
 						</div>
+					<h3>Shampoo</h3>
 					</li>
 				</ul>
 				<ul style="float: left;">
@@ -124,6 +134,7 @@ else {
 						<div class="home-prodlist-img"><a href="OurProducts/Soap&Detergent.php">
 							<img src="./image/product/soap/sp.jpg" class="home-prodlist-imgi"></a>
 						</div>
+						<h3>Soap & Detergent</h3>	
 					</li>
 				</ul>
 				<ul style="float: left;">
@@ -131,13 +142,15 @@ else {
 						<div class="home-prodlist-img"><a href="OurProducts/Drinks.php">
 							<img src="./image/product/drink/dr.jpg" class="home-prodlist-imgi"></a>
 						</div>
+					<h3>Drinks</h3>	
 					</li>
 				</ul>
 				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Seasonings.php">
+					<li style="float: left; padding: 25px;">				
+					<div class="home-prodlist-img"><a href="OurProducts/Seasonings.php">
 							<img src="./image/product/seasoning/cond.jpg" class="home-prodlist-imgi"></a>
 						</div>
+					<h3>Seasonings</h3>
 					</li>
 				</ul>
 			</div>			
