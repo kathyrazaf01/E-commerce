@@ -11,6 +11,20 @@ else {
 	$get_user_email = mysqli_fetch_assoc($result);
 	$uname_db = $get_user_email != null ? $get_user_email['firstName'] : null;
 }
+
+$categoryProduct = [
+    ['id' => 1, 'item' => 'noodles', 'name' => 'Noodles', 'image' => 'noodles/n.jpg'],
+    ['id' => 2, 'item' => 'snack', 'name' => 'Snack', 'image' => 'snack/sn.jpg'],
+    ['id' => 3, 'item' => 'sweet', 'name' => 'Sweet', 'image' => 'sweet/s.jpg'],
+    ['id' => 4, 'item' => 'hygiene', 'name' => 'Hygiene', 'image' => 'hygiene/hy.jpg'],
+    ['id' => 5, 'item' => 'shampoo', 'name' => 'Shampoo', 'image' => 'shampoo/pall.jpg'],
+    ['id' => 6, 'item' => 'soap', 'name' => 'Soap', 'image' => 'soap/sp.jpg'],
+    ['id' => 7, 'item' => 'drink', 'name' => 'Drink', 'image' => 'drink/dr.jpg'],
+    ['id' => 8, 'item' => 'seasoning', 'name' => 'Seasoning', 'image' => 'seasoning/cond.jpg']
+];
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -84,77 +98,17 @@ else {
 				<h2 style="text-align: center;"><strong>Products Category</strong></h2>
 			</div>
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/NoodlesCanned.php">
-							<img src="./image/product/noodles/n.jpg" class="home-prodlist-imgi">
-							</a>
-						</div>
-					<h3>Noodles/Canned</h3>	
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Snacks.php">
-							<img src="./image/product/snack/sn.jpg" class="home-prodlist-imgi">
-							</a>
-						</div>
-					</li>
-					<h3>Snacks</h3>
-						
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-					
-						<div class="home-prodlist-img"><a href="OurProducts/Sweets.php">
-							<img src="./image/product/sweet/s.jpg" class="home-prodlist-imgi"></a>
-						</div>
-					<h3>Sweets</h3>
-						
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-					
-						<div class="home-prodlist-img"><a href="OurProducts/Hygene.php">
-							<img src="./image/product/hygiene/hy.jpg" class="home-prodlist-imgi"></a>
-						</div>
-					<h3>Hygienic Products</h3>	
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-					
-						<div class="home-prodlist-img"><a href="OurProducts/Shampoo.php">
-							<img src="./image/product/shampoo/pall.jpg" class="home-prodlist-imgi"></a>
-						</div>
-					<h3>Shampoo</h3>
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Soap&Detergent.php">
-							<img src="./image/product/soap/sp.jpg" class="home-prodlist-imgi"></a>
-						</div>
-						<h3>Soap & Detergent</h3>	
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Drinks.php">
-							<img src="./image/product/drink/dr.jpg" class="home-prodlist-imgi"></a>
-						</div>
-					<h3>Drinks</h3>	
-					</li>
-				</ul>
-				<ul style="float: left;">
-					<li style="float: left; padding: 25px;">				
-					<div class="home-prodlist-img"><a href="OurProducts/Seasonings.php">
-							<img src="./image/product/seasoning/cond.jpg" class="home-prodlist-imgi"></a>
-						</div>
-					<h3>Seasoning</h3>
-					</li>
-				</ul>
+				<?php foreach ($categoryProduct as $category) { ?>
+					<ul style="float: left;">
+						<li style="float: left; padding: 25px;">
+							<div class="home-prodlist-img"><a href="OurProducts/category.php?item=<?php echo $category['item']; ?>">
+							<!-- <div class="home-prodlist-img"><a href="OurProducts/Drinks.php"> -->
+								<img src="./image/product/<?php echo $category['image']; ?>" class="home-prodlist-imgi">
+								</a>
+							</div>
+						</li>
+					</ul>
+				<?php } ?>
 			</div>			
 		</div>
 	</body>
