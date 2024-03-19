@@ -30,11 +30,26 @@ $categoryProduct = [
 <!DOCTYPE html>
 <html>
 <head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8JFCNSN5ZE"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-8JFCNSN5ZE');
+		</script>
 	<title>Drinks</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N89BJNV6"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
 	<?php include ( "../inc/mainheader.inc.php" ); ?>
 	<div class="categolis">
 		<table>

@@ -48,6 +48,12 @@ $categoryProduct = [
 		<script src="/js/homeslideshow.js"></script>
 	</head>
 	<body style="min-width: 980px;">
+
+		<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N89BJNV6"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
 		<div class="homepageheader" style="position: relative;">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
@@ -116,10 +122,4 @@ $categoryProduct = [
 			</div>			
 		</div>
 	</body>
-
-	<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N89BJNV6"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
 </html>
