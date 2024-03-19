@@ -106,6 +106,7 @@ $categoryProduct = [
 								<img src="./image/product/<?php echo $category['image']; ?>" class="home-prodlist-imgi">
 								</a>
 							</div>
+						<h3><strong><?php echo $category['name']; ?></strong></h3>
 						</li>
 					</ul>
 				<?php } ?>
