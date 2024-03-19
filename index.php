@@ -39,6 +39,8 @@ $categoryProduct = [
 		<title>Nita's online grocery for your needs - Fresh products, drinks and snacks</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Découvrez notre épicerie en ligne, spécialisée dans la livraison rapide de produits frais et de qualité. Explorez nos catégories de produits frais, boissons, snacks, et bien plus encore.">
+    	<meta name="keywords" content="online grocery,Fresh products, drinks, snacks, quality products">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<script src="/js/homeslideshow.js"></script>
 	</head>
